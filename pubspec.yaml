@@ -1,0 +1,40 @@
+name: ricy_and_morty
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  bloc: ^8.1.3
+  cupertino_icons: ^1.0.6
+  dio: 
+  flutter:
+    sdk: flutter
+  flutter_bloc: 
+  flutter_launcher_icons: ^0.13.1
+  flutter_offline: ^3.0.1
+  lottie: ^3.1.0
+  meta: ^1.11.0
+
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/images/rick icon.png
+
+dev_dependencies:
+
+  flutter_lints: ^3.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
